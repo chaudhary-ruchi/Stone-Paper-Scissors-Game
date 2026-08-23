@@ -1,1 +1,1 @@
-Stone Paper Scissors game built using HTML, CSS & JavaScript.
+**Stone Paper Scissors game built using HTML, CSS & JavaScript.**
