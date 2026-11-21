@@ -75,11 +75,13 @@ img{
 }
 
 
+
 @media screen and (max-width: 600px) {
 
     h1 {
         font-size: 1.5rem;
         height: auto;
+        line-height: 1.5;
         padding: 15px 5px;
     }
 
@@ -87,27 +89,28 @@ img{
         gap: 12px;
         flex-wrap: wrap;
         margin-top: 2rem;
+        padding: 0 10px;
     }
 
     .choice {
-        width: 95px;
-        height: 95px;
+        width: 90px;
+        height: 90px;
     }
 
     .choice img {
-        width: 85px;
-        height: 85px;
+        width: 80px;
+        height: 80px;
     }
 
     .score-board {
-        font-size: 2rem;
+        font-size: 1.5rem;
         gap: 2rem;
         margin-top: 2rem;
     }
 
     #user-score,
     #comp-score {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .msg-container {
@@ -115,8 +118,12 @@ img{
     }
 
     #msg {
+        display: inline-block;
         font-size: 1rem;
+        line-height: 1.5;
         height: auto;
-        padding: 12px;
+        max-width: 90%;
+        padding: 10px;
+        border-radius: 10px;
     }
 }
