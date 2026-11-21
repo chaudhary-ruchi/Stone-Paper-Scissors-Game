@@ -127,3 +127,39 @@ img{
         border-radius: 10px;
     }
 }
+
+@media screen and (max-width: 600px) {
+
+    .choices {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        gap: 5px;
+        margin-top: 2rem;
+        padding: 0 5px;
+    }
+
+    .choice {
+        width: 28vw;
+        height: 28vw;
+        flex-shrink: 1;
+    }
+
+    .choice img {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .score-board {
+        display: flex;
+        justify-content: center;
+        gap: 15vw;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 2.5rem;
+    }
+}
